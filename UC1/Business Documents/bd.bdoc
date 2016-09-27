@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <businessDocument xmlns="http://www.axway.com/mappingServices/hl7BusinessDocument" id="3f089ea0-5849-4756-90bd-4dd00d765f4b" encodingBD="iso8859">
-   <signature appVersion="3.1.2" lastUpdatedOn="27/09/2016 17:20:54 +0300"/>
+   <signature appVersion="3.1.2" lastUpdatedOn="27/09/2016 17:39:22 +0300"/>
    <childElements>
       <childElement factoryType="Hl7Field" order="1" name="MSH" hash="-528464745">
          <cardinality minimum="1" maximum="1"/>
@@ -171,7 +171,7 @@
                   </childElement>
                </childElements>
             </childElement>
-            <childElement factoryType="Hl7FieldLeaf" hash="-725844595" typeId="10" definition="25" paddingCharElement=" " allowDistortion="true" label="Alternate Character Set Handling Scheme" nullable="true" keepDecimalSeparator="true" order="52" encodingElement="iso8859" name="AlternateCharacterSetHandlingScheme">
+            <childElement factoryType="Hl7FieldLeaf" hash="-725844595" typeId="10" definition="27" paddingCharElement=" " allowDistortion="true" label="Alternate Character Set Handling Scheme" nullable="true" keepDecimalSeparator="true" order="52" encodingElement="iso8859" name="AlternateCharacterSetHandlingScheme">
                <cardinality maximum="1"/>
             </childElement>
             <childElement factoryType="Hl7Component" order="53" name="MessageProfileIdentifier" label="Message Profile Identifier" hash="-329651607">
